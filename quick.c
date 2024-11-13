@@ -37,7 +37,7 @@ void printArray(int arr[], int n) {
 }
 
 int main() {
-    int arr[] = {10, 7, 8, 9, 1, 5};
+    int arr[] = {10, 700, 18, 93, 41, 57};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     quickSort(arr, 0, n - 1);
